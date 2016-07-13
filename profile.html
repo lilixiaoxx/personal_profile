@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to CeCe's Profile</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+  <header>
+    <!-- <img src="images/12.pic.jpg" class="img-responsive" alt="Responsive image" /> -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type= "button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand" >CeCe's Profile</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+        <!-- id="bs-example-navbar-collapse-1"> -->
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactinfo">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active" id="home">
+        <img src="http://blog.usa.skanska.com/wp-content/uploads/2013/07/1_Bi1399_rgb_Omslag_5.jpg" alt="1 side", width=100%>
+        <div class="carousel-caption">
+          <h1>Welcome to CeCe's Website</h1>
+          <p>A full-stack web developer</p>
+          <img src="http://www.imgus.net/i/b5f1cb672e2747b28e115c02b266298a.png", width=40%/>
+        </div>
+      </div>
+
+
+      <div class="item" id="about">
+        <img src="images/3.jpg" alt="2 side", width=100%/>
+        <div class="carousel-caption">
+          <div class=title>
+            <h2>About ME</h2>
+          </div>
+        </div>
+        <div class="hovered">
+          <h2>Background</h2>
+          <p>HI, this is CeCe a junior full-stack web developer. Experienced with all stages of the development cycle for<br/> a dynamic web projects. Also familiar with financial planning skills, had bachelor degree <br/>and master degree from Baylor University.</p>
+          <h2>Skills</h2>
+          <ul>
+            <li>javaScript, </li>
+            <li>HTML5, </li>
+            <li>CSS, </li>
+            <li>JQuery, </li>
+            <li>Ruby on Rails, </li>
+            <li>Node.js, </li>
+            <li>Angular.js, </li>
+            <li>React.js, </li>
+            <li>NoSQL, </li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item" id="projects">
+        <img src="http://what-you-mustknow.com/images/wallpapers/gray-wallpaper/gray-wallpaper-15.jpg" alt="3 side" width=130%>
+        <div class="carousel-caption">
+          <div class=titletwo>
+            <h2>Projects</h2>
+            <div id="project1">
+            <a href="http://lilixiaoxx.github.io/">
+            <img src="https://www.texashumaneheroes.org/wp-content/uploads/TicTacToe-photo-logo.jpg" width=30%/></a>
+            <p>A funny Tic-Tac-Toe game for playing with friends</p>
+            </div>
+            <div id="project2">
+            <a href="https://codeconnect-us.herokuapp.com/"></a>
+            <img src="images/project.png" width=30%/>
+            <p>CodeConnect.us is a tutor web application for a user who want to learn coding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="item" id="contactinfo">
+        <img src="http://what-you-mustknow.com/images/wallpapers/gray-wallpaper/gray-wallpaper-15.jpg" alt="3 side" width=130%>
+        <div class="carousel-caption">
+          <div class=titlethree>
+            <h2>Contact Me</h2>
+            <p>“If I had asked people what they wanted, they would have said faster horses. ”
+- Henry Ford</p>
+            <a href = "https://www.linkedin.com/in/xichen621">
+            <img src="images/linkedin.png" width=10%/>
+            </a>
+            <a href ="https://github.com/lilixiaoxx">
+            <img src="images/github.png" width=10%/>
+            </a>
+          </div>
+        </div>
+        </div>
+    <!-- </div> -->
+
+
+
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Home</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script src="javascript.js"></script>
+  </body>
+</html>
